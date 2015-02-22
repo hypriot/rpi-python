@@ -1,4 +1,4 @@
-# rpi-node
+# rpi-python
 Raspberry Pi comptible Docker baseimage with Python preinstalled.
 
 Run all the commands from within the project root directory.
