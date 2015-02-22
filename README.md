@@ -1,5 +1,5 @@
 # rpi-python
-Raspberry Pi comptible Docker baseimage with Python preinstalled.
+Raspberry Pi compatible Docker base image with Python preinstalled.
 
 Run all the commands from within the project root directory.
 
