@@ -16,4 +16,3 @@ test:
 
 version:
 	docker run --rm $(DOCKER_IMAGE_TAGNAME) python --version
-
