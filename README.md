@@ -1,7 +1,5 @@
 # rpi-python
 
-[![dockeri.co](http://dockeri.co/image/hypriot/rpi-python)](https://registry.hub.docker.com/u/hypriot/rpi-python/)
-
 Raspberry Pi compatible Docker base image with Python preinstalled.
 
 Run all the commands from within the project root directory.
