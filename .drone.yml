@@ -1,5 +1,12 @@
 #debug: true
 
+matrix:
+  BASE:
+    - alpine
+  VERSION:
+    - 2.7
+    - 3.5
+
 publish:
   docker:
 #    environment:
@@ -7,10 +14,10 @@ publish:
     username: $$DOCKER_USER
     password: $$DOCKER_PASS
     email: $$DOCKER_EMAIL
-    repo: hypriot/rpi-python
-    tag: 
-      - latest
-      - "2.7"
+    file: $$BASE/$$VERSION/Dockerfile
+    repo: hypriot-testing/rpi-python
+    tag:
+      - $$VERSION-$$BASE
 
 notify:
   slack:
