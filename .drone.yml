@@ -3,6 +3,7 @@
 matrix:
   BASE:
     - alpine
+    - debian
   VERSION:
     - 2.7
     - 3.5
